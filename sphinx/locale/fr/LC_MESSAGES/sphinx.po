@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-08-07 00:24+0000\n"
+"POT-Creation-Date: 2022-08-21 00:20+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Jean-François B. <jfbu@free.fr>, 2017-2019,2022\n"
 "Language-Team: French (http://www.transifex.com/sphinx-doc/sphinx-1/language/fr/)\n"
@@ -75,7 +75,7 @@ msgstr "Ce projet nécessite au minimum Sphinx v%s et ne peut donc être constru
 msgid "making output directory"
 msgstr "Création du répertoire de sortie"
 
-#: sphinx/application.py:233 sphinx/registry.py:439
+#: sphinx/application.py:233 sphinx/registry.py:457
 #, python-format
 msgid "while setting up extension %s:"
 msgstr "lors de l'initialisation de l'extension %s :"
@@ -404,82 +404,82 @@ msgstr "Le rôle %r est déjà enregistré sur le domaine %s"
 msgid "The %r index is already registered to domain %s"
 msgstr "L'index %r est déjà enregistré sur le domaine %s"
 
-#: sphinx/registry.py:251
+#: sphinx/registry.py:258
 #, python-format
 msgid "The %r object_type is already registered"
 msgstr "Le type de l'objet %r est déjà enregistré"
 
-#: sphinx/registry.py:271
+#: sphinx/registry.py:284
 #, python-format
 msgid "The %r crossref_type is already registered"
 msgstr "Le type %r crossref_type est déjà enregistré"
 
-#: sphinx/registry.py:278
+#: sphinx/registry.py:291
 #, python-format
 msgid "source_suffix %r is already registered"
 msgstr "L'extension source %r est déjà enregistrée"
 
-#: sphinx/registry.py:288
+#: sphinx/registry.py:301
 #, python-format
 msgid "source_parser for %r is already registered"
 msgstr "source_parser pour %r est déjà enregistré"
 
-#: sphinx/registry.py:297
+#: sphinx/registry.py:310
 #, python-format
 msgid "Source parser for %s not registered"
 msgstr "source_parser pour %s non enregistré"
 
-#: sphinx/registry.py:326
+#: sphinx/registry.py:339
 #, python-format
 msgid "Translator for %r already exists"
 msgstr "Il existe déjà un traducteur pour %r"
 
-#: sphinx/registry.py:339
+#: sphinx/registry.py:352
 #, python-format
 msgid "kwargs for add_node() must be a (visit, depart) function tuple: %r=%r"
 msgstr "Les kwargs pour add_node() doivent être un tuple de fonction (visite, départ) : %r=%r"
 
-#: sphinx/registry.py:411
+#: sphinx/registry.py:429
 #, python-format
 msgid "enumerable_node %r already registered"
 msgstr "enumerable_node %r est déjà enregistré"
 
-#: sphinx/registry.py:420
+#: sphinx/registry.py:438
 #, python-format
 msgid "math renderer %s is already registered"
 msgstr "le moteur de rendu mathématique %s est déjà enregistré"
 
-#: sphinx/registry.py:433
+#: sphinx/registry.py:451
 #, python-format
 msgid ""
 "the extension %r was already merged with Sphinx since version %s; this "
 "extension is ignored."
 msgstr "l'extension %r a été intégrée à Sphinx depuis la version %s ; cette extension est ignorée."
 
-#: sphinx/registry.py:444
+#: sphinx/registry.py:462
 msgid "Original exception:\n"
 msgstr "Exception initiale :\n"
 
-#: sphinx/registry.py:445
+#: sphinx/registry.py:463
 #, python-format
 msgid "Could not import extension %s"
 msgstr "L'extension %s ne peut pas être importée"
 
-#: sphinx/registry.py:450
+#: sphinx/registry.py:468
 #, python-format
 msgid ""
 "extension %r has no setup() function; is it really a Sphinx extension "
 "module?"
 msgstr "l'extension %r n'a pas de fonction setup(); est-elle réellement un module d'extension de Sphinx ?"
 
-#: sphinx/registry.py:459
+#: sphinx/registry.py:477
 #, python-format
 msgid ""
 "The %s extension used by this project needs at least Sphinx v%s; it "
 "therefore cannot be built with this version."
 msgstr "L'extension %s utilisée par ce projet nécessite au moins Sphinx v%s ; il ne peut donc pas être construit avec la version courante."
 
-#: sphinx/registry.py:467
+#: sphinx/registry.py:485
 #, python-format
 msgid ""
 "extension %r returned an unsupported object from its setup() function; it "

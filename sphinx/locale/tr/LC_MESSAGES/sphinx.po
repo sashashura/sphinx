@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-08-07 00:24+0000\n"
+"POT-Creation-Date: 2022-08-21 00:20+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: BouRock, 2020\n"
 "Language-Team: Turkish (http://www.transifex.com/sphinx-doc/sphinx-1/language/tr/)\n"
@@ -52,7 +52,7 @@ msgstr "Bu proje en az Sphinx s%s gerektirir ve bu nedenle bu sürüm ile oluşt
 msgid "making output directory"
 msgstr "çıktı dizini yapılıyor"
 
-#: sphinx/application.py:233 sphinx/registry.py:439
+#: sphinx/application.py:233 sphinx/registry.py:457
 #, python-format
 msgid "while setting up extension %s:"
 msgstr "%s uzantısı ayarlanırken:"
@@ -381,82 +381,82 @@ msgstr "%r rolü zaten %s etki alanına kayıtlı"
 msgid "The %r index is already registered to domain %s"
 msgstr "%r dizini zaten %s etki alanına kayıtlı"
 
-#: sphinx/registry.py:251
+#: sphinx/registry.py:258
 #, python-format
 msgid "The %r object_type is already registered"
 msgstr "%r object_type zaten kayıtlı"
 
-#: sphinx/registry.py:271
+#: sphinx/registry.py:284
 #, python-format
 msgid "The %r crossref_type is already registered"
 msgstr "%r crossref_type zaten kayıtlı"
 
-#: sphinx/registry.py:278
+#: sphinx/registry.py:291
 #, python-format
 msgid "source_suffix %r is already registered"
 msgstr "source_suffix %r zaten kayıtlı"
 
-#: sphinx/registry.py:288
+#: sphinx/registry.py:301
 #, python-format
 msgid "source_parser for %r is already registered"
 msgstr "%r için source_parser zaten kayıtlı"
 
-#: sphinx/registry.py:297
+#: sphinx/registry.py:310
 #, python-format
 msgid "Source parser for %s not registered"
 msgstr "%s için kaynak ayrıştırıcı kayıtlı değil"
 
-#: sphinx/registry.py:326
+#: sphinx/registry.py:339
 #, python-format
 msgid "Translator for %r already exists"
 msgstr "%r için çevirmen zaten mevcut"
 
-#: sphinx/registry.py:339
+#: sphinx/registry.py:352
 #, python-format
 msgid "kwargs for add_node() must be a (visit, depart) function tuple: %r=%r"
 msgstr "add_node() için kwargs bir (visit, depart) tanımlama grubu işlevi olmak zorundadır: %r=%r"
 
-#: sphinx/registry.py:411
+#: sphinx/registry.py:429
 #, python-format
 msgid "enumerable_node %r already registered"
 msgstr "enumerable_node %r zaten kayıtlı"
 
-#: sphinx/registry.py:420
+#: sphinx/registry.py:438
 #, python-format
 msgid "math renderer %s is already registered"
 msgstr ""
 
-#: sphinx/registry.py:433
+#: sphinx/registry.py:451
 #, python-format
 msgid ""
 "the extension %r was already merged with Sphinx since version %s; this "
 "extension is ignored."
 msgstr "%r uzantısı zaten %s sürümünden bu yana Sphinx ile birleştirildi; bu uzantı yoksayıldı."
 
-#: sphinx/registry.py:444
+#: sphinx/registry.py:462
 msgid "Original exception:\n"
 msgstr "Özgün özel durumu:\n"
 
-#: sphinx/registry.py:445
+#: sphinx/registry.py:463
 #, python-format
 msgid "Could not import extension %s"
 msgstr " %s uzantısı içe aktarılamadı"
 
-#: sphinx/registry.py:450
+#: sphinx/registry.py:468
 #, python-format
 msgid ""
 "extension %r has no setup() function; is it really a Sphinx extension "
 "module?"
 msgstr "%r uzantısı setup() işlevine sahip değil; bu gerçekten bir Sphinx uzantısı modülü mü?"
 
-#: sphinx/registry.py:459
+#: sphinx/registry.py:477
 #, python-format
 msgid ""
 "The %s extension used by this project needs at least Sphinx v%s; it "
 "therefore cannot be built with this version."
 msgstr "Bu proje tarafından kullanılan %s uzantısının en az Sphinx s%s sürümüne ihtiyacı var; bu nedenle bu sürümle oluşturulamaz."
 
-#: sphinx/registry.py:467
+#: sphinx/registry.py:485
 #, python-format
 msgid ""
 "extension %r returned an unsupported object from its setup() function; it "

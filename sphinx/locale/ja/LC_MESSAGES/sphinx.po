@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-08-07 00:24+0000\n"
+"POT-Creation-Date: 2022-08-21 00:20+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2020-2022\n"
 "Language-Team: Japanese (http://www.transifex.com/sphinx-doc/sphinx-1/language/ja/)\n"
@@ -65,7 +65,7 @@ msgstr "このプロジェクトはSphinx v%s以降のバージョンでなけ�
 msgid "making output directory"
 msgstr "出力先ディレクトリを作成しています"
 
-#: sphinx/application.py:233 sphinx/registry.py:439
+#: sphinx/application.py:233 sphinx/registry.py:457
 #, python-format
 msgid "while setting up extension %s:"
 msgstr "拡張機能のセットアップ中 %s:"
@@ -394,82 +394,82 @@ msgstr "ロール %r は既にドメイン%sに登録されています"
 msgid "The %r index is already registered to domain %s"
 msgstr "インデックス %r はすでに%sドメインに登録されています"
 
-#: sphinx/registry.py:251
+#: sphinx/registry.py:258
 #, python-format
 msgid "The %r object_type is already registered"
 msgstr "object_type %r はすでに登録されています"
 
-#: sphinx/registry.py:271
+#: sphinx/registry.py:284
 #, python-format
 msgid "The %r crossref_type is already registered"
 msgstr "classref_type %r はすでに登録されています"
 
-#: sphinx/registry.py:278
+#: sphinx/registry.py:291
 #, python-format
 msgid "source_suffix %r is already registered"
 msgstr "source_suffix %r はすでに登録されています"
 
-#: sphinx/registry.py:288
+#: sphinx/registry.py:301
 #, python-format
 msgid "source_parser for %r is already registered"
 msgstr "%r のsource_parserはすでに登録されています"
 
-#: sphinx/registry.py:297
+#: sphinx/registry.py:310
 #, python-format
 msgid "Source parser for %s not registered"
 msgstr "%s のsource_parserは登録されていません"
 
-#: sphinx/registry.py:326
+#: sphinx/registry.py:339
 #, python-format
 msgid "Translator for %r already exists"
 msgstr "%r のTranslatorはすでに登録されています"
 
-#: sphinx/registry.py:339
+#: sphinx/registry.py:352
 #, python-format
 msgid "kwargs for add_node() must be a (visit, depart) function tuple: %r=%r"
 msgstr "add_node() のキーワード引数は (visit, depart) の形式で関数をタプルで指定してください: %r=%r"
 
-#: sphinx/registry.py:411
+#: sphinx/registry.py:429
 #, python-format
 msgid "enumerable_node %r already registered"
 msgstr "enumerable_node %r はすでに登録されています"
 
-#: sphinx/registry.py:420
+#: sphinx/registry.py:438
 #, python-format
 msgid "math renderer %s is already registered"
 msgstr "math renderer %s はすでに登録されています"
 
-#: sphinx/registry.py:433
+#: sphinx/registry.py:451
 #, python-format
 msgid ""
 "the extension %r was already merged with Sphinx since version %s; this "
 "extension is ignored."
 msgstr "拡張 %r はSphinxのバージョン%sでSphinxに統合されています。この拡張は無視されます。"
 
-#: sphinx/registry.py:444
+#: sphinx/registry.py:462
 msgid "Original exception:\n"
 msgstr "元の例外:\n"
 
-#: sphinx/registry.py:445
+#: sphinx/registry.py:463
 #, python-format
 msgid "Could not import extension %s"
 msgstr "拡張 %s をimportできません"
 
-#: sphinx/registry.py:450
+#: sphinx/registry.py:468
 #, python-format
 msgid ""
 "extension %r has no setup() function; is it really a Sphinx extension "
 "module?"
 msgstr "拡張 %r には setup() 関数がありません。これは本当にSphinx拡張ですか？"
 
-#: sphinx/registry.py:459
+#: sphinx/registry.py:477
 #, python-format
 msgid ""
 "The %s extension used by this project needs at least Sphinx v%s; it "
 "therefore cannot be built with this version."
 msgstr "このプロジェクトで使われている拡張 %s はSphinx v%s 以降が必要なため、現在のバージョンではビルドできません。"
 
-#: sphinx/registry.py:467
+#: sphinx/registry.py:485
 #, python-format
 msgid ""
 "extension %r returned an unsupported object from its setup() function; it "

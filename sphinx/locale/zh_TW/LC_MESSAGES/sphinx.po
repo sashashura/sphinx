@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-08-07 00:24+0000\n"
+"POT-Creation-Date: 2022-08-21 00:20+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Steven Hsu <hsuhaochun@gmail.com>, 2021-2022\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/sphinx-doc/sphinx-1/language/zh_TW/)\n"
@@ -56,7 +56,7 @@ msgstr "本專案需要 Sphinx v%s 版本或以上，故無法以現版本編譯
 msgid "making output directory"
 msgstr "正在建立輸出目錄"
 
-#: sphinx/application.py:233 sphinx/registry.py:439
+#: sphinx/application.py:233 sphinx/registry.py:457
 #, python-format
 msgid "while setting up extension %s:"
 msgstr "正在設置擴充套件 %s 時："
@@ -385,82 +385,82 @@ msgstr "%r 角色已註冊給 domain %s"
 msgid "The %r index is already registered to domain %s"
 msgstr "%r 索引已註冊給 domain %s"
 
-#: sphinx/registry.py:251
+#: sphinx/registry.py:258
 #, python-format
 msgid "The %r object_type is already registered"
 msgstr "%r object_type 已註冊"
 
-#: sphinx/registry.py:271
+#: sphinx/registry.py:284
 #, python-format
 msgid "The %r crossref_type is already registered"
 msgstr "%r crossref_type 已註冊"
 
-#: sphinx/registry.py:278
+#: sphinx/registry.py:291
 #, python-format
 msgid "source_suffix %r is already registered"
 msgstr "source_suffix %r 已註冊"
 
-#: sphinx/registry.py:288
+#: sphinx/registry.py:301
 #, python-format
 msgid "source_parser for %r is already registered"
 msgstr "對於 %r 的 source_parser 已註冊"
 
-#: sphinx/registry.py:297
+#: sphinx/registry.py:310
 #, python-format
 msgid "Source parser for %s not registered"
 msgstr "對於 %s 的源碼剖析器未註冊"
 
-#: sphinx/registry.py:326
+#: sphinx/registry.py:339
 #, python-format
 msgid "Translator for %r already exists"
 msgstr "對於 %r 的翻譯器已經存在"
 
-#: sphinx/registry.py:339
+#: sphinx/registry.py:352
 #, python-format
 msgid "kwargs for add_node() must be a (visit, depart) function tuple: %r=%r"
 msgstr "對於 add_node() 的 kwargs 必須是一個 (visit, depart) 函式值組：%r=%r"
 
-#: sphinx/registry.py:411
+#: sphinx/registry.py:429
 #, python-format
 msgid "enumerable_node %r already registered"
 msgstr "enumerable_node %r 已註冊"
 
-#: sphinx/registry.py:420
+#: sphinx/registry.py:438
 #, python-format
 msgid "math renderer %s is already registered"
 msgstr "數學描繪器 %s 已註冊"
 
-#: sphinx/registry.py:433
+#: sphinx/registry.py:451
 #, python-format
 msgid ""
 "the extension %r was already merged with Sphinx since version %s; this "
 "extension is ignored."
 msgstr "擴充套件 %r 已被併入版本 %s 以上的 Sphinx：此擴充套件已略過。"
 
-#: sphinx/registry.py:444
+#: sphinx/registry.py:462
 msgid "Original exception:\n"
 msgstr "原始的例外：\n"
 
-#: sphinx/registry.py:445
+#: sphinx/registry.py:463
 #, python-format
 msgid "Could not import extension %s"
 msgstr "無法引入擴充套件 %s"
 
-#: sphinx/registry.py:450
+#: sphinx/registry.py:468
 #, python-format
 msgid ""
 "extension %r has no setup() function; is it really a Sphinx extension "
 "module?"
 msgstr "擴充套件 %r 沒有 setup() 函式；它真的是 Sphinx 擴充套件模組嗎？"
 
-#: sphinx/registry.py:459
+#: sphinx/registry.py:477
 #, python-format
 msgid ""
 "The %s extension used by this project needs at least Sphinx v%s; it "
 "therefore cannot be built with this version."
 msgstr "此專案使用的 %s 擴充套件需要 Sphinx v%s 以上的版本；所以它無法以此版本被建立。"
 
-#: sphinx/registry.py:467
+#: sphinx/registry.py:485
 #, python-format
 msgid ""
 "extension %r returned an unsupported object from its setup() function; it "
